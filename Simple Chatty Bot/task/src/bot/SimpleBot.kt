@@ -11,6 +11,7 @@ fun main() {
     println("Please, remind me your name.")
 
     // reading a name
+    val input = scanner.nextLine()
 
-    println("What a great name you have, {yourName}!")
+    println("What a great name you have, ${input}!")
 }
